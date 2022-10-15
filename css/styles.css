@@ -1,0 +1,165 @@
+:root{
+    --brand-color:#2196F3;
+    --text-color: #212121;
+    --second-color: #ffffff;
+    --third-color: #757575; 
+    --bg-color: #2F303A;
+    --color-team:  #F5F4FA;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--text-color);
+}
+
+nav {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.02em;
+}
+
+p {
+    color: var(--third-color);
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+}
+
+ul {
+    list-style: none;
+}
+
+.bg{
+    background-color: var(--bg-color);
+}
+
+.buttons {
+    cursor: pointer;
+}
+.button-principal{
+    color: var(--second-color);
+    background-color: var(--brand-color);
+    width: 197px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+}
+.button-folio:hover {
+    color: var(--second-color);
+    background-color: var(--brand-color);
+}
+.foot {
+    text-align: left;
+}
+
+.foot-bg {
+    background-color: var(--bg-color);
+}
+
+.head {
+    text-align: right;
+}
+
+.info {
+    color: var(--third-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.02em;
+}
+
+.info:hover {
+    color: var(--brand-color)
+}
+
+.links {
+    color: var(--text-color);
+}
+
+.links:hover {
+    color: var(--brand-color);
+}
+
+.location {
+    color: var(--second-color);
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+}
+.location:hover{
+    color: var(--brand-color);
+}
+.logo {
+    color: var(--brand-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.name {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+}
+
+.subtittle-text {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.03em
+}
+
+.tittle-2 {
+    color: var(--text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+}
+
+.topic {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+}
+
+#tittle {
+    color: var(--second-color);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+#team-color {
+    background-color: var(--color-team);
+
+}
