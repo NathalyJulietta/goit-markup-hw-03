@@ -11,16 +11,18 @@
     />
   </head>
   <body>
-    <header>
+    <header class="menu">
+      <div class="container">
       <nav>
-        <ul>
+        <ul class="menu">
           <li><a class="logo head" href="index.html">WebStudio</a></li>
-          <li><a class="links" href="studio.html">Estudio</a></li>
-          <li><a class="links" href="#">Portafolio</a></li>
-          <li><a class="links" href="contacts.html">Contactos</a></li>
+          <li><a class="links link-1" href="studio.html">Estudio</a></li>
+          <li><a class="links l2" href="#">Portafolio</a></li>
+          <li><a class="links l3" href="contactos.html">Contactos</a></li>
         </ul>
+      </div>
       </nav>
-      <ul>
+      <ul class="menu">
         <li>
           <a class="info mail" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -30,40 +32,44 @@
           <a class="info tel" href="tel:+525555296000">+52 55 5529 6000</a>
         </li>
       </ul>
+      </div>
     </header>
     <main>
-      <section>
-        <ul>
-          <li>
-            <button type="button" class="buttons button-folio">
+      <section class="section">
+        <div class="container">
+        <ul class="menu">
+          <li class="button-folio">
+            <button type="button" class="buttons">
               <span class="button__label">Todo</span>
             </button>
           </li>
-          <li>
-            <button type="button" class="buttons button-folio">
+          <li class="button-folio">
+            <button type="button" class="buttons">
               <span class="button__label">Sitios-web</span>
             </button>
           </li>
-          <li>
-            <button type="button" class="buttons button-folio">
+          <li class="button-folio">
+            <button type="button" class="buttons">
               <span class="button__label">Aplicaciones</span>
             </button>
           </li>
-          <li>
-            <button type="button" class="buttons button-folio">
+          <li class="button-folio">
+            <button type="button" class="buttons">
               <span class="button__label">Diseño</span>
             </button>
           </li>
-          <li>
-            <button type="button" class="buttons button-folio">
+          <li class="button-folio">
+            <button type="button" class="buttons">
               <span class="button__label">Marketing</span>
             </button>
           </li>
         </ul>
+        </div>
       </section>
-      <section>
-        <ul>
-          <li>
+      <section class="section">
+        <div class="container">
+        <ul class="cards">
+          <li class="cards-items">
             <img
               src="images/tecnoduck.jpg"
               alt="Sitio-web de Tecnoduck"
@@ -72,7 +78,7 @@
             <h3 class="name">Tecnoduck</h3>
             <p class="topic">Sitio-web</p>
           </li>
-          <li>
+          <li class="cards-items">
             <img
               src="images/imageposternoed.jpg"
               alt="Póster de Nueva Orleans vs Estrella Dorada"
@@ -80,7 +86,7 @@
             />
             <h3 class="name">Póster de Nueva Orleans vs Estrella Dorada</h3>
           </li>
-          <li>
+          <li class="cards-items">
             <img
               src="images/imageseafood.jpg"
               alt="logo del Restaurante Seafood"
@@ -89,7 +95,7 @@
             <h3 class="name">Restaurante Seafood</h3>
             <p class="topic">Aplicaciones</p>
           </li>
-          <li>
+          <li class="cards-items">
             <img
               src="images/imageproyectprime.jpg"
               alt="Auriculares negros"
@@ -98,7 +104,7 @@
             <h3 class="name">Proyecto Prime</h3>
             <p class="topic">Marketing</p>
           </li>
-          <li>
+          <li class="cards-items">
             <img
               src="images/imagepboxes.jpg"
               alt="dos cajjas, izquierda de color blanco y derecha de color café"
@@ -107,7 +113,7 @@
             <h3 class="name">Proyecto Cajas</h3>
             <p class="topic">Aplicaciones</p>
           </li>
-          <li>
+          <li class="cards-items">
             <img
               src="images/imageinspiration.jpg"
               alt="monitor de computadora"
@@ -116,7 +122,7 @@
             <h3 class="name">La inspiración no tiene límites</h3>
             <p class="topic">Sitio-web</p>
           </li>
-          <li>
+          <li class="cards-items">
             <img
               src="images/imagelimitedition.jpg"
               alt="revista con imagenes de chica usando secadora, chica entada en cunclillas con bolso blanco en la mano, dos amigas de espaldas, observando el piente de new york"
@@ -125,7 +131,7 @@
             <h3 class="name">Edición Limitada</h3>
             <p class="topic">Diseño</p>
           </li>
-          <li>
+          <li class="cards-items">
             <img
               src="images/imageplab.jpg"
               alt="logo de tab el lag"
@@ -134,7 +140,7 @@
             <h3 class="name">Proyecto LAB</h3>
             <p class="topic">Marketing</p>
           </li>
-          <li>
+          <li class="cards-items">
             <img
               src="images/imagegrowingbusiness.jpg"
               alt="manos escribiendo en laptop"
@@ -144,27 +150,30 @@
             <p class="topic">Aplicaciones</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
-    <footer class="foot-bg bg">
-      <ul>
-        <li><h2 class="logo foot">WebStudio</h2></li>
-        <li class="location">
-          Calz. Ticomán 500, Ciudad de México, CDMX, México
-        </li>
-      </ul>
-      <address>
+    <footer class="foot-bg foot-bg-studio">
+      <div class="container">
         <ul>
-          <li>
-            <a class="location" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="location" href="tel:+525555296000">+52 55 5529 6000</a>
+          <li><h2 class="logo foot">WebStudio</h2></li>
+          <li class="location address">
+            Calz. Ticomán 500, Ciudad de México, CDMX, México
           </li>
         </ul>
-      </address>
+        <address>
+          <ul>
+            <li>
+              <a class="location foot-info" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="location foot-info" href="tel:+525555296000">+52 55 5529 6000</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
