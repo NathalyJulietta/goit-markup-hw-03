@@ -101,6 +101,7 @@ ul {
 .foot-bg {
     background-color: var(--bg-color);
     padding-top: 60px;
+    padding-bottom: 47px;
  }
 .foot-info{
     margin-bottom: 2px;  
@@ -162,10 +163,10 @@ ul {
     line-height: 24px;
     vertical-align: top;
     letter-spacing: 0.03em;
+    
 }
 .location:hover{
     color: var(--brand-color);
-    margin-bottom: 27px;
 }
 .logo {
     color: var(--brand-color);
